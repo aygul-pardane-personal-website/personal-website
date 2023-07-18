@@ -1,3 +1,48 @@
+body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #EEE5E9;
+    margin: 0pt;
+}
+
+a {
+    color: black;
+}
+
 header {
+    text-align: left;
+    background-color: #92DCE5;
+    padding: 8%;
+}
+
+.index-h2 {
+    margin: 10pt;
     text-align: center;
 }
+
+.index-h3 {
+    margin: 10pt;
+    font-style: italic;
+    text-align: center;
+}
+
+#person {
+    font-size: 18pt;
+}
+
+.column {
+    float: left;
+    width: 50%;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#joke {
+    background-color: #7A82AB;
+    padding-bottom: 1000pt;
+}
+
+
