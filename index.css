@@ -21,8 +21,12 @@ header {
 
 .index-h3 {
     margin: 10pt;
+    padding: 50px;
     font-style: italic;
     text-align: center;
+    border: solid black 2pt;
+    border-radius: 100pt;
+    background-color: #f4d5e3;
 }
 
 #person {
