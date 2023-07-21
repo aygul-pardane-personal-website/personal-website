@@ -61,6 +61,6 @@ header {
 
 .about-column {
     flex: 50%;
-    padding: 5px;
+    padding: 25px;
     text-align: center;
 }
