@@ -38,7 +38,7 @@ header {
     width: 50%;
 }
 
-.row:after {
+.row {
     content: "";
     display: table;
     clear: both;
@@ -46,9 +46,9 @@ header {
 
 #joke {
     background-color: #46581d;
-    padding-bottom: 100%;
+    /* padding-bottom: 100%; */
 }
-/*the two below arent working*/
+
 .about-column {
     float: left;
     width: 50%;
