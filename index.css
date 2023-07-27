@@ -44,9 +44,8 @@ header {
 
 #joke {
     background-color: #46581d;
-    /* padding-bottom: 100%; */
 }
-
+/*
 .about-column {
     float: left;
     width: 50%;
@@ -62,7 +61,7 @@ header {
     padding: 25px;
     text-align: center;
 }
-
+*/
 footer {
     text-align: center;
     padding: 10px;
@@ -70,4 +69,18 @@ footer {
 
 .portfolio-h1 {
     text-align: center;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 2%;
+}
+
+.about-row {
+    margin: 5%;
+}
+
+.img {
+    max-width: 100%;
 }
