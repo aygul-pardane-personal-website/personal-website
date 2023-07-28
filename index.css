@@ -76,6 +76,16 @@ article {
     padding: 0% 15% 5% 15%;
 }
 
+input[type="submit"]:hover {
+    background-color: #46581d;
+    cursor: pointer;
+    transition: background-color 1s ease-out;
+}
+
+#thanks-h2 {
+    padding: 8%;
+}
+
 @media screen and (max-width: 700px) {
     header {
         font-size: 12px;
