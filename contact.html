@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aygül ParDane</title>
+    <link rel="stylesheet" type="text/css" href="index.css"/>
+    <script src="index.js"></script>
+</head>
+
+<body>
+
+    <header>
+        <span><h1>Aygül ParDane</h1></span>
+        <span><h2>developer | educator | humorist</h2></span>
+        <nav>
+            <span>
+                <a href="index.html">HOME</a>
+            </span>
+            <span>
+                <a href="about.html">ABOUT</a>
+            </span>
+            <span>
+                <a class="active" href="portfolio.html">PORTFOLIO</a>
+            </span>
+            <span>
+                <a href="contact.html">CONTACT</a>
+            </span>
+        </nav>
+    </header>
+
+    <div>
+        <h3 id="contact-h3">
+            Please leave your questions, comments, and contact information below. I will reach out to you about your question as soon as I'm done developing this page.
+        </h3>
+    </div>
+
+    <article>
+        <form>
+            <label for="fname">First Name:</label>
+            <br/>
+            <input type="text" id="fname" name="fname" />
+            <br/>
+
+            <label for="lname">Last Name:</label>
+            <br/>
+            <input type="text" id="lname" name="lname" />
+            <br/>
+
+            <label for="email">Email:</label>
+            <br/>
+            <input type="email" id="email" name="email"/>
+            <br/><br/>
+        </form>
+
+        <p>Please type your inquiry below. Make it short. I might look like I have a lot of time by the looks of this website, but I truly don't.</p>
+
+        <form>
+            <label for="inquiry"></label>
+            <textarea id="inquiry" name="inquiry" rows="4" cols="20"></textarea><br/>
+        </form>
+
+        <p>Which coding language do you prefer most?</p>
+
+        <form action="./thankyou.html">
+            <input type="radio" id="html" name="fave_lang" value="HTML"/>
+            <label for="html">HTML</label><br/>
+
+            <input type="radio" id="js" name="fave_lang" value="HTML"/>
+            <label for="js">JavaScript</label><br/>
+
+            <input type="radio" id="css" name="fave_lang" value="CSS"/>
+            <label for="css">CSS</label><br/>
+
+            <input type="radio" id="who" name="fave_lang" value="HTML"/>
+            <label for="who">Who are you kidding? I don't code</label><br/><br/>
+
+            <input type="submit" value="Submit" />
+        </form>
+    </article>
+
+</body>
+</html>
