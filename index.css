@@ -97,4 +97,9 @@ input[type="submit"]:hover {
         display: grid;
         grid-template-columns: 1fr;
     }
+    .row {
+        display: flex;
+        flex-direction: column-reverse;
+        size: 100vh;
+    }
 }
